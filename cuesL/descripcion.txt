@@ -1,0 +1,2 @@
+Esta implementación de cola consiste en una del tipo LIFO,Last In, First Out; 
+último en entrar primero en salir  
