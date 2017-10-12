@@ -6,84 +6,84 @@ import org.junit.Before;
 import org.junit.Test;
 
 public class CuaTest {
-
-    private Cua<String> c;
-
-
+    private Cua<String> micua;
 
     @Before
     public void before() {
-        c = new CuaImpl<String>(10);
-        c.push("aaaaa");
-        System.out.println("before done");
+        micua = new CuaImpl<String>(10);
+        micua.push("Marta");//afegim primer element
+
+        System.out.println("test iniciat");
     }
 
     @After
     public void after() {
-        System.out.println("after");
+        System.out.println("test completat");
     }
 
     @Test
     public void size1() throws Exception {
-        Assert.assertEquals(1, c.size());
+        Assert.assertEquals(1,micua.size());
     }
     @Test
     public void size2() throws Exception {
-        c.push("bbbbb");
-        Assert.assertEquals(2, c.size());
+        micua.push("Toni");
+        Assert.assertEquals(2, micua.size());
     }
 
     @Test
     public void sizepop() throws Exception {
-        c.pop();
-        Assert.assertEquals(0, c.size());
+        micua.pop();
+        Assert.assertEquals(0, micua.size());
     }
 
     @Test
     public void sizepushpop() throws Exception {
-        c.push("bbbbb");
-        c.pop();
-        Assert.assertEquals(1, c.size());
+        micua.push("Toni");
+        micua.pop();
+        Assert.assertEquals(1, micua.size());
     }
-
     @Test
     public void popcontent() throws Exception {
-        String answer= c.pop();
-        Assert.assertEquals("aaaaa", answer);
+        String answer= micua.pop();
+        Assert.assertEquals("Marta", answer);
     }
 
     @Test
     public void popcontent2() throws Exception {
-        c.push("bbbbb");
-        String vbbb= c.pop();
-        String vaaa= c.pop();
-        Assert.assertEquals("aaaaa", vaaa);
-        Assert.assertEquals("bbbbb", vbbb);
+        micua.push("toni");
+        String valor1= micua.pop();
+        Assert.assertEquals("toni", valor1);
+
     }
 
     @Test
     public void popcontent3() throws Exception {
 
-        String vaaa= c.pop();
-        c.push("bbbbb");
-        String vbbb= c.pop();
-
-        Assert.assertEquals("aaaaa", vaaa);
-        Assert.assertEquals("bbbbb", vbbb);
-        Assert.assertEquals(0, c.size());
+        String valor1= micua.pop();
+        micua.push("Toni");
+        String valor2= micua.pop();
+        Assert.assertEquals("Marta", valor1);
+        Assert.assertEquals("Toni", valor2);
+        Assert.assertEquals(0, micua.size());
     }
-
     @Test
     public void popcontent4() throws Exception {
 
-        c.push("bbbbb");
-        c.push("ccccc");
-        String vccc= c.pop();
-        String vbbb= c.pop();
-        String vaaa= c.pop();
-        Assert.assertEquals("aaaaa", vaaa);
-        Assert.assertEquals("bbbbb", vbbb);
-        Assert.assertEquals("ccccc", vccc);
+        micua.push("Toni");
+        micua.push("Pep");
+        Assert.assertEquals(3, micua.size());
+        String valor1= micua.pop();
+
+        Assert.assertEquals(2, micua.size());
+        String valor2= micua.pop();
+        Assert.assertEquals(1, micua.size());
+        String valor3= micua.pop();
+        Assert.assertEquals(0, micua.size());
+
+        Assert.assertEquals("Pep", valor1);
+        Assert.assertEquals("Toni", valor2);
+        Assert.assertEquals("Marta", valor3);
     }
     /*@Test
     public void testCuaPlena() throws Exception {

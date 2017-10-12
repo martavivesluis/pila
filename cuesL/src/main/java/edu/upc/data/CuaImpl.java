@@ -4,6 +4,7 @@ public  class CuaImpl<T> implements Cua<T>
 {
     int size;
     Node first;
+    int contador;
 
     public CuaImpl(int len) {
         size = 0;
@@ -20,11 +21,9 @@ public  class CuaImpl<T> implements Cua<T>
             return 0;
         }else{
             Node ultim = getUltim();
-
             Node nou = new Node<T>();
             nou.element = t;
             nou.next = null;
-
             ultim.next = nou;
             size++;
             return 0;
@@ -32,16 +31,21 @@ public  class CuaImpl<T> implements Cua<T>
 
     }
 
-    public Node getUltim(){
+    public Node getUltim()
+    {
         Node actual = this.first;
-        while(actual.next != null){
+        while(actual.next != null)
+        {
             actual = actual.next;
         }
-        return actual;
+                return actual;
+    }
+    public void buidarElement(Node node)
+    {
+     node.element = null;
     }
     public T pop() throws PilaBuidaException
     {
-
         if (this.size()==0) {
             throw new PilaBuidaException();
         }
@@ -49,11 +53,20 @@ public  class CuaImpl<T> implements Cua<T>
             size--;
             return (T)first.element;
         }
-        if (this.size()==2) {
+        else {
             Node ultim = getUltim();
+            size--;
+            Node actual = this.first;
+            while(actual.next != ultim)
+            {
+                actual = actual.next;
+            }
+            actual.next = null;
+
             return (T)ultim.element;
+
+
         }
-        return null;
 
     }
 

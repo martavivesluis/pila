@@ -5,5 +5,6 @@ public class PilaBuidaException extends Exception {
     public PilaBuidaException() {
         super ("Pila Buida");
 
+
     }
 }
