@@ -1,0 +1,80 @@
+2017-10-25 10:00:46 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:00:46 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:00:46 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:00:46 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:00:46 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:00:46 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:00:46 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:00:46 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:00:46 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:00:46 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:00:46 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:00:46 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:00:46 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:00:46 INFO  CuaImpl:51 - avançant la stack 1posicions
+2017-10-25 10:00:46 INFO  CuaImpl:51 - avançant la stack 1posicions
+2017-10-25 10:00:46 INFO  CuaImpl:51 - avançant la stack 2posicions
+2017-10-25 10:00:46 INFO  CuaImpl:80 - doing a pop ofPep
+2017-10-25 10:00:46 INFO  CuaImpl:51 - avançant la stack 1posicions
+2017-10-25 10:00:46 INFO  CuaImpl:80 - doing a pop ofToni
+2017-10-25 10:00:46 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:00:46 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:00:46 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:00:46 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:00:46 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:00:46 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:00:46 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:00:46 INFO  CuaImpl:51 - avançant la stack 1posicions
+2017-10-25 10:00:46 INFO  CuaImpl:80 - doing a pop ofToni
+2017-10-25 10:00:46 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:00:46 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:00:46 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:00:46 INFO  CuaImpl:51 - avançant la stack 1posicions
+2017-10-25 10:00:46 INFO  CuaImpl:80 - doing a pop oftoni
+2017-10-25 10:07:01 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:07:02 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:07:02 INFO  Node:9 - node created
+2017-10-25 10:07:02 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:07:02 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:07:02 INFO  Node:9 - node created
+2017-10-25 10:07:02 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:07:02 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:07:02 INFO  Node:9 - node created
+2017-10-25 10:07:02 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:07:02 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:07:02 INFO  Node:9 - node created
+2017-10-25 10:07:02 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:07:02 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:07:02 INFO  Node:9 - node created
+2017-10-25 10:07:02 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:07:02 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:07:02 INFO  Node:9 - node created
+2017-10-25 10:07:02 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:07:02 INFO  Node:9 - node created
+2017-10-25 10:07:02 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:07:02 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:07:02 INFO  Node:9 - node created
+2017-10-25 10:07:02 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:07:02 INFO  Node:9 - node created
+2017-10-25 10:07:02 INFO  CuaImpl:51 - avançant la stack 1posicions
+2017-10-25 10:07:02 INFO  CuaImpl:80 - doing a pop oftoni
+2017-10-25 10:07:02 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:07:02 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:07:02 INFO  Node:9 - node created
+2017-10-25 10:07:02 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:07:02 INFO  Node:9 - node created
+2017-10-25 10:07:02 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:07:02 INFO  CuaImpl:51 - avançant la stack 1posicions
+2017-10-25 10:07:02 INFO  Node:9 - node created
+2017-10-25 10:07:02 INFO  CuaImpl:51 - avançant la stack 1posicions
+2017-10-25 10:07:02 INFO  CuaImpl:51 - avançant la stack 2posicions
+2017-10-25 10:07:02 INFO  CuaImpl:80 - doing a pop ofPep
+2017-10-25 10:07:02 INFO  CuaImpl:51 - avançant la stack 1posicions
+2017-10-25 10:07:02 INFO  CuaImpl:80 - doing a pop ofToni
+2017-10-25 10:07:02 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:07:02 INFO  CuaImpl:22 - of an empty stack
+2017-10-25 10:07:02 INFO  Node:9 - node created
+2017-10-25 10:07:02 INFO  CuaImpl:19 - doing a push
+2017-10-25 10:07:02 INFO  Node:9 - node created
+2017-10-25 10:07:02 INFO  CuaImpl:51 - avançant la stack 1posicions
+2017-10-25 10:07:02 INFO  CuaImpl:80 - doing a pop ofToni

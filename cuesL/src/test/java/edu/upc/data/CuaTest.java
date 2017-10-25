@@ -5,9 +5,10 @@ import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
 
+
 public class CuaTest {
     private Cua<String> micua;
-
+    //static Logger logger = Logger.getLogger(ss.class);
     @Before
     public void before() {
         micua = new CuaImpl<String>(10);
