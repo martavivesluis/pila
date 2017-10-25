@@ -36,8 +36,8 @@
       <file leaf-file-name="CuaTest.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/test/java/edu/upc/data/CuaTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="32" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+            <state relative-caret-position="272">
+              <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,11 +116,11 @@
         <option value="$PROJECT_DIR$/src/main/java/edu/upc/data/Cua.java" />
         <option value="$PROJECT_DIR$/src/main/java/edu/upc/data/PilaBuidaException.java" />
         <option value="$PROJECT_DIR$/../../singleton/src/main/java/MyResourceBundle.java" />
-        <option value="$PROJECT_DIR$/src/test/java/edu/upc/data/CuaTest.java" />
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/src/main/java/edu/upc/data/CuaImpl.java" />
         <option value="$PROJECT_DIR$/target/classes/log4j.properties" />
         <option value="$PROJECT_DIR$/src/main/java/edu/upc/data/Node.java" />
+        <option value="$PROJECT_DIR$/src/test/java/edu/upc/data/CuaTest.java" />
       </list>
     </option>
   </component>
@@ -382,7 +382,7 @@
       <workItem from="1507827121502" duration="3810000" />
       <workItem from="1507885362921" duration="753000" />
       <workItem from="1508145413258" duration="2678000" />
-      <workItem from="1508866964120" duration="6945000" />
+      <workItem from="1508866964120" duration="7037000" />
     </task>
     <servers />
   </component>
@@ -419,7 +419,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="17708000" />
+    <option name="totallyTimeSpent" value="17800000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
@@ -804,8 +804,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/edu/upc/data/CuaTest.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="32" column="5" lean-forward="true" selection-start-line="28" selection-start-column="4" selection-end-line="32" selection-end-column="5" />
+        <state relative-caret-position="272">
+          <caret line="16" column="0" lean-forward="false" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>

@@ -1,6 +1,7 @@
 package edu.upc.data;
 
 import junit.framework.Assert;
+import org.apache.log4j.Logger;
 import org.junit.After;
 import org.junit.Before;
 import org.junit.Test;
@@ -8,13 +9,12 @@ import org.junit.Test;
 
 public class CuaTest {
     private Cua<String> micua;
-    //static Logger logger = Logger.getLogger(ss.class);
+    static Logger logger = Logger.getLogger(CuaTest.class);
     @Before
     public void before() {
         micua = new CuaImpl<String>(10);
         micua.push("Marta");//afegim primer element
-
-        System.out.println("test iniciat");
+        logger.info("test iniciat");
     }
 
     @After
