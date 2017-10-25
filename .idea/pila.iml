@@ -4,10 +4,10 @@
     <output url="file:///production/pila" />
     <output-test url="file:///test/pila" />
     <exclude-output />
-    <content url="file://$MODULE_DIR$">
+    <content url="file://$MODULE_DIR$/cuesL">
       <sourceFolder url="file://$MODULE_DIR$/cuesL/src/main/java" isTestSource="false" />
       <sourceFolder url="file://$MODULE_DIR$/cuesL/src/test/java" isTestSource="true" />
-      <excludeFolder url="file://$MODULE_DIR$/cuesL/.idea" />
+      <excludeFolder url="file://$MODULE_DIR$/cuesL/target" />
     </content>
     <orderEntry type="inheritedJdk" />
     <orderEntry type="sourceFolder" forTests="false" />

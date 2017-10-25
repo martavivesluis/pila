@@ -19,7 +19,7 @@ public class CuaTest {
 
     @After
     public void after() {
-        System.out.println("test completat");
+        logger.info("test completat");
     }
 
     @Test
